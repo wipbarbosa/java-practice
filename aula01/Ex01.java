@@ -1,11 +1,20 @@
 public class Ex01 {
 
-    public static void main(String[] args) {
+     public static void main(String[] args) {
 
-        int idade = 21;
-        double altura = 1.80;
+        Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Minha idade é: " + idade);
-        System.out.println("Minha altura é: " + altura);
+        System.out.print("Digite seu nome: ");
+        String nome = scanner.nextLine();
+
+        System.out.print("Digite sua idade: ");
+        int idade = scanner.nextInt();
+
+        System.out.print("Digite sua altura: ");
+        double altura = scanner.nextDouble();
+
+        System.out.println("Seu nome é: " + nome);
+        System.out.println("Sua idade é: " + idade);
+        System.out.println("Sua altura é: " + altura);
     }
 }
