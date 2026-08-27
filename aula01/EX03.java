@@ -13,8 +13,8 @@ public class Ex03 {
 
         int adicao = numero1 + numero2;
         int subtracao = numero1 - numero2;
-        double multiplicacao = numero1 * numero2;
-        double divisao = numero1 / numero2;
+        int multiplicacao = numero1 * numero2;
+        double divisao = (double) numero1 / numero2;
 
         System.out.println("Adição: "+ adicao);
         System.out.println("Subtração: " + subtracao);
