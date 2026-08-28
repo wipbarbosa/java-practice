@@ -8,8 +8,10 @@ public class Ex05 {
 
         System.out.print("Digite a sua idade: ");
         int idade = scanner.nextInt();
-
-        if (idade <= 12) {
+        
+        if (idade <= 0 ) {
+            System.out.println("Idade invalida");
+        } else if (idade <= 12) {
             System.out.println("Criança");
         } else if (idade <= 17){
             System.out.println("Adolescente");
