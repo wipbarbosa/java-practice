@@ -6,16 +6,13 @@ public class Ex03 {
     
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Digite um numero inteiro");
+        System.out.println("Digite um numero inteiro: ");
         int numero = scanner.nextInt();
 
         if (numero % 2 == 0){
             System.out.println("O número é par");
         } else {
-            System.err.println("O numerop é impar");
+            System.out.println("O numero é impar");
         }
     }
-
-    
-    
 }
